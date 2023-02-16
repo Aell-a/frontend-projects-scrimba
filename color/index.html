@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav>
+            <input type="color" id="color-select" value="#F55A5A">
+            <select id="type-select">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-Dark</option>
+                <option value="monochrome-light">Monochrome-Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="get-color">Get Color Scheme</button>
+        </nav>
+        <div class="color-container">
+            <div id="color-seed" class="color"></div>
+            <div id="color-1" class="color"></div>
+            <div id="color-2" class="color"></div>
+            <div id="color-3" class="color"></div>
+            <div id="color-4" class="color"></div>
+        </div>
+        <div class="hex-codes">
+            <div id="hex-seed" class="hex">#F55A5A</div>
+            <div id="hex-1" class="hex">#2B283A</div>
+            <div id="hex-2" class="hex">#FBF3AB</div>
+            <div id="hex-3" class="hex">#AAD1B6</div>
+            <div id="hex-4" class="hex">#A626D3</div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
